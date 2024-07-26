@@ -66,7 +66,7 @@
 
             // Load the GLTF model
             const loader = new THREE.GLTFLoader();
-            loader.load('face.glb', function(gltf) {
+            loader.load('Face.glb', function(gltf) {
                 model = gltf.scene;
                 model.rotation.y = Math.PI; // Adjust model orientation if needed
                 scene.add(model);
